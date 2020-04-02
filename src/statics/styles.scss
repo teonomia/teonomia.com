@@ -1,0 +1,43 @@
+
+body {
+  font-size: medium;
+}
+
+
+/* ============= Home ============= */
+/* ================================ */
+.home {
+  img{ margin: 3em 0;}
+
+  .TrabalheNaAlemanha{
+    .text-content{
+      margin-top: 5vw;
+    }
+  }
+  .TaxaZero{
+    .text-content{
+      h4{ font-size: 1.5em !important; margin-top: 10vw;}
+      // font-size: 1.5em;
+    }
+  }
+  .Calculando{
+    .text-content{
+      margin-top: 6vw;
+      ul{margin-left: 2em;
+        li{
+          list-style: disc !important;
+          text-align: left;
+          // font-size: 1.4em;
+        }
+      }
+    }
+  }
+  .AindaComDuvida{
+    .text-content{
+      text-align: left;
+    }
+    img{
+      margin: 0 auto;
+    }
+  }
+}

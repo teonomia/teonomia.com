@@ -1,0 +1,23 @@
+{
+  "name": "teonomia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alvaro Separovich",
+  "license": "MIT",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "isomorphic-unfetch": "^3.0.0",
+    "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0",
+    "next": "^9.3.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-markdown": "^4.3.1",
+    "swr": "^0.1.18"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
