@@ -1,9 +1,8 @@
 import React from 'react'
 import mainTemplate from '../template'
-import Row from '../template/matComponents/row'
 
 const Artigos = function () {
-  return Row({InnerH:()=>(
+  return (
   <div className="Artigos row left-align">
     <h1>Sobre Nós</h1>
   <p>Nós momento, significa apenas eu, Alvaro Separovich, que mantenho todo o conteúdo deste site.</p>
@@ -14,7 +13,7 @@ const Artigos = function () {
   <p>Gostou do projeto? você também pode contribuir.</p>
   <p>Entre em contato para saber como</p>
 
-</div>)})
+</div>)
 }
 
 export default () => mainTemplate(<div className="home">
