@@ -1,5 +1,6 @@
 import React from 'react'
 import MainTemplate from '../template'
+import { articleAuthors } from '../geter'
 
 export default function ({autores}) {
   return MainTemplate((
@@ -14,8 +15,7 @@ export default function ({autores}) {
 
 
 export async function getStaticProps (context) {
-  const {getDir} = require( '../getFileSistem')
-  const autores = await getDir()
+  const autores = await articleAuthors()
   return {
     props:
     { autores }
