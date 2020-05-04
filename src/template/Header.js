@@ -24,7 +24,7 @@ const Header = ()=>{
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <nav>
-    <div className="nav-wrapper black white-text">
+    <div className="nav-wrapper grey darken-3 white-text">
       <a href="/" className="brand-logo center">Teonomia</a>
       <a href="#" data-target="slide-out" class="sidenav-trigger show-on-medium-and-up"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">

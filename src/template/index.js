@@ -3,7 +3,7 @@ import Header from './Header'
 
 
 const mainTamplate = (html)=>(
-<div>
+<div className='grey lighten-4'>
   <Header/>
   <div className="main">
   {html}
