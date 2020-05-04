@@ -38,7 +38,7 @@ const Header = ()=>{
   </nav>
 
 
-  <ul id="slide-out" class="sidenav">
+  <ul id="slide-out" className="sidenav">
     <li><div className="user-view">
       <h5>Menu</h5>
     </div></li>
