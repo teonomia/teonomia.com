@@ -26,7 +26,7 @@ const Header = ()=>{
   <nav>
     <div className="nav-wrapper grey darken-3 white-text">
       <a href="/" className="brand-logo center">Teonomia</a>
-      <a href="#" data-target="slide-out" class="sidenav-trigger show-on-medium-and-up"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="slide-out" className="sidenav-trigger show-on-medium-and-up"><i className="material-icons">menu</i></a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
         <li>
           <Link href='/about'>
