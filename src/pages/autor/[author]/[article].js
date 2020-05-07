@@ -6,7 +6,7 @@ import PoJson from 'pojson'
 import Link from 'next/link'
 
 export default function (params) {
-  // console.log(params)
+  console.log(params)
   return MainTemplate((
     <div className="container article">
       <style jsx>{`
@@ -28,14 +28,17 @@ export default function (params) {
 
   <div className="col s12 m2">
       <p className="intro grey-text ">Artigo de
-      <b className="black-text"> R. J. Rushdoony </b>
-        - retirado de
-        <a href="https://chalcedon.edu/resources/articles/4-steps-to-biblical-prayer"> Chalcedon Foundation</a>
+      <b className="black-text">
+        <Link href="/autor/[author]" as={`/autor/${params.author}`}><a> {params.author} </a></Link>
+      </b>
+      - retirado de
+      <a href="https://chalcedon.edu/resources/articles/4-steps-to-biblical-prayer"> Chalcedon Foundation</a>
       </p>
     </div>
-
-      <div className='grey-text text-darken-3' dangerouslySetInnerHTML={ {__html: PoJson.fromPo(params.content).translatedHtml} }
-      />
+        {/* {params.content} */}
+        {/* {console.log(params.content)} */}
+        {/* {PoJson.fromPo(params.content).translatedHtml} */}
+      {<div className='grey-text text-darken-3' dangerouslySetInnerHTML={ {__html: PoJson.fromPo(params.content).translatedHtml} }/>}
     </div>
   ))
 }

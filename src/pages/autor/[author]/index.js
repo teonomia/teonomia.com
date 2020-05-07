@@ -12,10 +12,11 @@ export default function ({articles, author}) {
       <h6>Lista de Artigos de</h6>
       <h2> {author} </h2>
       <ul>
-        {articles.map((article, i)=>(<li key={i}>
-          <Link href="/autor/[author]/[article]" as={`/autor/${author}/${article.name}`}>
-          <a>{article.name}</a>
-          </Link>
+        {articles.map((article, i)=>(
+          <li key={i}>
+            <Link href="/autor/[author]/[article]" as={`/autor/${author}/${article.name}`}>
+              <a>{article.name}</a>
+            </Link>
           </li>))}
       </ul>
     </div>

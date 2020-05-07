@@ -4528,9 +4528,9 @@ pnp-webpack-plugin@1.5.0:
   dependencies:
     ts-pnp "^1.1.2"
 
-"pojson@https://github.com/teonomia/poJson":
-  version "0.5.4"
-  resolved "https://github.com/teonomia/poJson#0e9e2f2f7d7365e685eebf38eab0f24be6a430f2"
+"pojson@https://github.com/teonomia/poJson#0.5.5":
+  version "0.5.5"
+  resolved "https://github.com/teonomia/poJson#839502589e75ef2999ea7c5aa0616240b8885fbc"
   dependencies:
     node-html-parser "^1.2.16"
 
