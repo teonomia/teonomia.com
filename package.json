@@ -11,7 +11,7 @@
     "jquery": "^3.5.0",
     "materialize-css": "^1.0.0",
     "next": "^9.3.2",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "pojson": "https://github.com/teonomia/poJson#0.5.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
